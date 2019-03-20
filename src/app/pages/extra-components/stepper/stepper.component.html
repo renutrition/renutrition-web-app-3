@@ -1,4 +1,4 @@
-<nb-card class="col-md-12 col-lg-12 col-xxxl-12">
+<!-- <nb-card class="col-md-12 col-lg-12 col-xxxl-12">
   <nb-card-body>
     <nb-stepper orientation="horizontal">
       <nb-step [label]="labelOne">
@@ -26,10 +26,10 @@
       </nb-step>
     </nb-stepper>
   </nb-card-body>
-</nb-card>
+</nb-card> -->
 
 <div class="steppers-container row">
-  <div class="col-md-12 col-lg-6 col-xxxl-6">
+  <!-- <div class="col-md-12 col-lg-6 col-xxxl-6">
     <nb-card>
       <nb-card-body>
         <nb-stepper #stepper>
@@ -83,54 +83,290 @@
         </nb-stepper>
       </nb-card-body>
     </nb-card>
-  </div>
+  </div> -->
 
-  <div class="col-md-12 col-lg-6 col-xxxl-6">
-    <nb-card size="medium">
+  <div class="col-md-12">
+    <nb-card>
       <nb-card-body>
-        <nb-stepper orientation="vertical">
-          <nb-step label="First step">
+        <nb-stepper orientation="vertical" linear="true">
+          <nb-step label="Welcome">
             <h3>Step content #1</h3>
             <p class="lorem">
-              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum bibendum,
-              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna, quis
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
               viverra ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent metus turpis, commodo vel
               placerat quis, lobortis in ligula.
             </p>
             <button nbButton disabled nbStepperNext>prev</button>
             <button nbButton nbStepperNext>next</button>
           </nb-step>
-          <nb-step label="Second step">
+          <nb-step label="Member Info">
             <h3>Step content #2</h3>
             <p class="lorem">
               Curabitur luctus mattis risus nec condimentum. Donec at dui turpis. Sed vehicula fringilla rutrum. Nullam
-              sed ornare magna. Mauris vitae laoreet diam. Mauris fermentum ligula at lacinia semper. Nulla placerat dui
+              sed ornare magna. Mauris vitae laoreet diam. Mauris fermentum ligula at lacinia semper. Nulla placerat
+              dui
               eu sapien pellentesque, eu placerat leo luctus. Cras pharetra blandit fermentum.
             </p>
             <button nbButton nbStepperPrevious>prev</button>
             <button nbButton nbStepperNext>next</button>
           </nb-step>
-          <nb-step label="Third step">
+          <nb-step label="Lifestyle">
             <h3>Step content #3</h3>
             <p class="lorem">
-              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum bibendum,
-              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna, quis
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
               viverra ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent metus turpis, commodo vel
               placerat quis, lobortis in ligula.
             </p>
             <p class="lorem">
               Curabitur luctus mattis risus nec condimentum. Donec at dui turpis. Sed vehicula fringilla rutrum. Nullam
-              sed ornare magna. Mauris vitae laoreet diam. Mauris fermentum ligula at lacinia semper. Nulla placerat dui
+              sed ornare magna. Mauris vitae laoreet diam. Mauris fermentum ligula at lacinia semper. Nulla placerat
+              dui
               eu sapien pellentesque, eu placerat leo luctus. Cras pharetra blandit fermentum.
             </p>
             <button nbButton nbStepperPrevious>prev</button>
             <button nbButton nbStepperNext>next</button>
           </nb-step>
-          <nb-step label="Fourth step">
+          <nb-step label="Vitals">
             <h3>Step content #4</h3>
             <p class="lorem">
-              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum bibendum,
-              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna, quis
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Primary Complaints">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="General Health">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Lifestyle Habits">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Surgeries">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Gastrointestinal">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Respiratory">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Mouth &amp; Throat">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Endocrine">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Cardiovascular">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Skin">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Ears">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Eyes">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Feet">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Neuromuscular">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Behavior Patterns">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Urinary">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Gender Specific">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Medications">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
+              viverra ex.
+            </p>
+            <button nbButton nbStepperPrevious>prev</button>
+            <button nbButton disabled nbStepperNext>next</button>
+          </nb-step>
+          <nb-step label="Supplements">
+            <h3>Step content #4</h3>
+            <p class="lorem">
+              Proin varius accumsan semper. Praesent consequat tincidunt sagittis. Curabitur egestas sem a ipsum
+              bibendum,
+              sit amet fringilla orci efficitur. Nam bibendum lectus ut viverra tristique. Fusce eu pulvinar magna,
+              quis
               viverra ex.
             </p>
             <button nbButton nbStepperPrevious>prev</button>
