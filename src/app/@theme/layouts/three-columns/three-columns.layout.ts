@@ -18,6 +18,7 @@ import { takeWhile } from 'rxjs/operators';
             <i class="ion ion-social-github"></i> <span>Support Us</span>
           </a>
         </nb-sidebar-header>
+        <ng-content select="nb-menu"></ng-content>
       </nb-sidebar>
 
       <nb-layout-column class="small">

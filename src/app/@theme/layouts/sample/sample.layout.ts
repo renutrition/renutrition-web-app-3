@@ -27,6 +27,7 @@ import { StateService } from '../../../@core/utils';
                    [end]="sidebar.id === 'end'">
         <nb-sidebar-header *ngIf="currentTheme !== 'corporate'">
         </nb-sidebar-header>
+        <ng-content select="nb-menu"></ng-content>
       </nb-sidebar>
 
       <nb-layout-column class="main-content">

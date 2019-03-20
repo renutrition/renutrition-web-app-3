@@ -11,6 +11,10 @@
   }
 }
 
-::ng-deep .step > .label-index {
+::ng-deep .step>.label-index {
   margin: 0 !important;
+}
+
+::ng-deep .step-content {
+  text-align: left !important;
 }
